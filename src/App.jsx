@@ -4,6 +4,7 @@ import "./App.css";
 import Filter from "./components/Filter";
 import Card from "./components/Card";
 import { useState, useEffect } from "react";
+import LinkFeed from "./components/LinkFeed";
 
 function App() {
   const [data, setData] = useState([]);
@@ -21,6 +22,7 @@ function App() {
       <div>
         <InputSearch />
         <Filter />
+        <LinkFeed />
         <ul className="cards-list">
           {data
             ? data.map((item) => (

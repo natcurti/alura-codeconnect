@@ -1,0 +1,18 @@
+.container-links {
+  margin: 3.5rem 0 2rem 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.container-links a {
+  text-decoration: none;
+  color: var(--medium-gray);
+  font-size: 1.25rem;
+}
+
+.container-links a.active {
+  color: var(--light-green);
+  border-bottom: 1px solid var(--light-green);
+}
