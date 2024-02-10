@@ -26,7 +26,6 @@ function App() {
             ? data.map((item) => (
                 <li key={item.id}>
                   <Card
-                    id={item.id}
                     imageUrl={item.imagem_capa}
                     title={item.titulo}
                     resume={item.resumo}

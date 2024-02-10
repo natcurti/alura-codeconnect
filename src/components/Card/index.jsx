@@ -3,16 +3,7 @@ import Chat from "./assets/chat.svg";
 import Share from "./assets/share.svg";
 import "./styles.css";
 
-const Card = ({
-  id,
-  imageUrl,
-  title,
-  resume,
-  code,
-  shared,
-  comments,
-  user,
-}) => {
+const Card = ({ imageUrl, title, resume, code, shared, comments, user }) => {
   return (
     <article className="card">
       <div className="card__img">
