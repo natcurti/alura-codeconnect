@@ -1,8 +1,20 @@
-# React + Vite
+# CodeConnect
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+O CodeConnect é uma rede social focada em artigos de tecnologia. Inicialmente construímos a página que será o Feed e posteriormente irei implementar a página de Login e outras funcionalidades como filtro de pesquisa.
 
-Currently, two official plugins are available:
+## Tecnologias utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Esse projeto foi construído com:
+React e Vite.
+
+## Instalação
+
+Após clonar o projeto, acesse o diretório e instale as dependências necessárias através do comando:
+
+```
+  npm install
+```
+
+## Aprendizados
+
+Com este projeto, pude aprender a criar um projeto React usando o Vite desde o zero, criação de componentes, estilização de componentes, manipulação de estado, requisição de API usando o fetch e como lidar com o ciclo de vida através do useEffect.
