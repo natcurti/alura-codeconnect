@@ -18,3 +18,7 @@ Após clonar o projeto, acesse o diretório e instale as dependências necessár
 ## Aprendizados
 
 Com este projeto, pude aprender a criar um projeto React usando o Vite desde o zero, criação de componentes, estilização de componentes, manipulação de estado, requisição de API usando o fetch e como lidar com o ciclo de vida através do useEffect.
+
+## Acesse o projeto pelo link:
+
+https://natcurti.github.io/alura-codeconnect/
